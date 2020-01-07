@@ -1,0 +1,43 @@
+
+table,th,td {margin: 3% 2%;
+             padding: 30px;
+            
+             border-color: rgb(255,200,150);
+             border-width: 2px;
+             text-align: center;
+             font-family: Arial, Helvetica, sans-serif;
+            
+}
+tr.heading{background-color: cadetblue;
+           line-height: 50%;
+           color: cornsilk;}
+           
+tr.sub-heading{
+    background-color: darkcyan;
+    line-height: 80%;
+    color: cornsilk;
+}
+td:hover{background-color: darkgray;
+    cursor: pointer;
+         
+}
+td{
+    line-height: 100%;
+}
+tr.purchase a{
+        font-size: 25px;   
+        text-decoration: none; 
+        color: rgb(156, 32, 10);
+
+}
+tr.purchase{
+    background-color:teal;
+
+}
+.purchase:hover{
+    background-color: rgb(255,255,255);
+    
+}
+tr a:hover{
+    color: red;
+}
