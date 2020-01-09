@@ -1,106 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="file:///E:/Maaz/work%20pics/icon%20form.jpg" rel="icon" type="icon/png">
-    <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="image/images.jpg" type="image/icon" rel="icon">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FORM</title>
+    <title>fiverr</title>
 </head>
 <body>
- <form class="main-content">
-    <div class="header" >
-     <h1> You Have To Sign Up First</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-  
+  <form id="form">
+   <div class="main">
+     <h1 class="header">Login to be a Part of <b>"EMERGING TECHNO"</b></h1>
+     <span class="button">
+     <img src="image/twitter_PNG1.webp" class="facebook" alt="icon">
+      <button type="submit">Continue with Twitter</button>
+    </span>
+    <span class="button"> 
+    <img src="image/tick-box-png-checked-checkbox-icon-png-50-px-1600.png" class="google" alt="icon">
+      <button type="submit">Continue with Google</button>
+    </span> 
     </div>
- <div id="content">
-    <div class="get-name">
-       <label for="name" class="firstname">First Name:</label><br>
-       <input type="text" name="your-name" placeholder="First Name" id="first-name" required><br>
-       <label for="last-name" class="lastname">Last Name:</label><br>
-       <input type="text" name="last-name" placeholder="Last Name" id="last-name">
-    </div>
-    <div class="e-address">
-        <label for="mail">Email:</label><br>
-        <input type="email" name="mail" id="mail" placeholder="Your Email" required><br>
-        <label for="number">Mobile No.:</label><br>
-        <input type="tel" id="number" name="mobile" placeholder="Mobile num" required><br>
-        
-    </div>
-    <div class="gender">
-      <label for="gender" >Male</label>
-      <input type="radio" name="gender" id="gender" required><br>
-      <label for="gender">Female</label>
-      <input type="radio" name="gender" id="gender" required><br>
-    </div>
-    <div class="info">
-      <label for="date-of -birth">Date Of Birth:</label><br>
-      <input type="date" name="date-of -birth" id="date-of-birth" required>
-    </div>
-    <div class="checkboxes">
-        <h2>Choose all life skills Which You Want to learn 2020: </h2>
-        
-        <input type="checkbox" id="check1">
-        <label for="check1" class="check1"  class="check1">Bug Solver</label><br>
-        
-        <input type="checkbox" id="check2">
-        <label for="check2" class="check2">Work With Team</label><br>
-        
-        <input type="checkbox" id="check3"
-        <label for="check3" class="check3">Communication Skills</label><br>
-        
-        <input type="checkbox" id="check4">
-        <label for="check4" class="check4">Presentation Skills</label><br>
-        
-        <input type="checkbox" id="check5">
-        <label for="check5" class="check5">Work With Team</label>
-    </div>
-    <div class="radio-for-rating" >
-       <h2>Rate Us Out Of Ten:</h2>
-        <label for="rating">1</label>
-        <input type="radio" name="rate" id="rating">
+   <h6 class="section">OR</h6>
+   <div class="second-main">
+     <input type="email" placeholder="Email" class="email" required>
+     <input type="password" placeholder="Password"class="password" required>
+     <button type="submit" class="done">Continue</button>
+     <span class="last">
+     <input type="checkbox" class="checkbox"><label for="checkbox" class="label">Remember Me?</label>
+    </span>
+    <span class="for-got" >
+    <a href="#not-now" class="forgot">Forgot Password?</a>
+  </span> 
+    <span class="line"></span>
+     <p class="footer" >Not a member yet? <a href="#"> Join Now</a></p>
+   </div>
 
-        <label for="rating">2</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">3</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">4</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">5</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">6</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">7</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">8</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">9</label>
-        <input type="radio" name="rate" id="rating">
-
-        <label for="rating">10</label>
-        <input type="radio" name="rate" id="rating">
-    </div>
-    <div class="comment">
-        <label for="comment">Type Comment</label><br>
-        <textarea placeholder="Your Comment" id="comment"></textarea>
-
-    </div>
-    <div>
-        <button>Submit</button>
-    </div>
-    <p class="note">
-       NOTE: Never submit passwords through Google Forms.
-    </p>
-</div>
-</form>
+   
+  </form>
 </body>
 </html>
