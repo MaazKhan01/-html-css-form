@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background: url(image/had.jpg);
     background-repeat: no-repeat;
@@ -7,10 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-*{
-    margin: 0px;
-    padding: 0px;
 }
 #form{
     height: 540px;
